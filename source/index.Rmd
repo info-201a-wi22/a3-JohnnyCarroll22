@@ -1,0 +1,42 @@
+---
+title: "African American Mass Incarceration in California"
+author: "John Carroll"
+date: "02/24/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library("tidyverse")
+library("plotly")
+library("dplyr")
+library("leaflet")
+library("knitr")
+source("Work.R")
+```
+
+### Introduction 
+
+In this assignment I decided to focus my research on my home state of California.  I beleive that there are many systemic factors that make African Americans more likely to rely on crime for daily necesities, and I wish to uncover some of these paterns in my home state.  In order to do so I looked at trends of incareceration between blacks and whites in two main areas.  First I identified the 10 year differences in the number of inmates of each race.  I then looked at the relationship between urban and rural areas to identify any possible link between location and imprisonment.
+
+### Summary Information
+
+In order to determine if African Americans are more at risk for incarceration than white people, I started by identifying a 10 year period in California from 2000 to 2010 and summed the total difference in new white inmates vs new black inmates.  I found that in the 10 year period I found that white inmates had changed by `r whitedif` while African American Inmates increased by `r blackdif`.  This shows a clear difference in incareration rates between the races.  Further more I identified if there was a disparity in incareration between rural and urban populations.  I found that in urban populations African Americans make up `r urban_prop_black` of the prison population while White people make up `r urban_prop_white`.  In rural areas this trend is not observered as African Americans only makeup `r rural_prop_black` while white people make up `r rural_prop_white`.  This is due to the fact that white people make up the vast majority of rural populations.  When looking at urban data it is interesting to note that the populations of white and black people is closer to equil yet we still see a grater percentage of black inmates.
+
+### Inmates Overtime
+
+In order to prove that this is a state wide issue I plotted the number of African American Inmates over time for two major CA counties.  This plot shows that the number of black inmates follows a similar pattern in San Mateo and San Diego counties.  It is also important to note that the population of San Diego County is greater than that of San Mateo thus comparing the total number of inmates would not help identify any trends.
+
+`r fig`
+
+### Comparing Variables
+
+This plot compares the number of white people in a population vs the number of white people in prison.  This plot shows that white people face a lower likelyhood of going to prison than that of African Americans.  The chart shows that roughly 1000 white inmates are heald for every half a million white people.  This proportion is much higher for African Americans.
+
+`r fig2`
+
+### Map 
+
+The map displays four major counties in California.  These counties are spread throughot northern and southern California and the size of the circle represents the percentage of African American inmates.  In order to give some prespective, African Americans only make up 6.5% of the population of California yet often make up almost 30% of the prison population.  This map helps show that this issue spans across the state. 
+
+`r map`
