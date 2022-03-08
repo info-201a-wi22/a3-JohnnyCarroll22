@@ -1,6 +1,6 @@
-setwd("/Users/school/INFO-201code/projects/a3-JohnnyCarroll22")
-incarceration_trends_jail_jurisdiction <- read.csv("~/INFO-201code/projects/a3-JohnnyCarroll22/incarceration-trends/incarceration_trends_jail_jurisdiction.csv")
-incarceration_trends <- read.csv("~/INFO-201code/projects/a3-JohnnyCarroll22/incarceration-trends/incarceration_trends.csv", header=TRUE)
+
+
+incarceration_trends<-read.csv("https://raw.githubusercontent.com/vera-institute/incarceration-trends/master/incarceration_trends.csv")
 library("tidyverse")
 library("plotly")
 library("dplyr")
@@ -132,6 +132,8 @@ map <- leaflet(data = prop_black) %>%
     lng = prop_black$long ,
     popup = paste(prop_black$county_name) ,
     radius = prop_black$prop_black)
+
+
 
 
 
