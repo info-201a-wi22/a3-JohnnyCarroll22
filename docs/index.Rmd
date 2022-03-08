@@ -12,7 +12,7 @@ library("plotly")
 library("dplyr")
 library("leaflet")
 library("knitr")
-source("Work.R")
+source("analysis.R")
 ```
 
 ### Introduction 
@@ -25,13 +25,13 @@ In order to determine if African Americans are more at risk for incarceration th
 
 ### Inmates Overtime
 
-In order to prove that this is a state wide issue I plotted the number of African American Inmates over time for two major CA counties.  This plot shows that the number of black inmates follows a similar pattern in San Mateo and San Diego counties.  It is also important to note that the population of San Diego County is greater than that of San Mateo thus comparing the total number of inmates would not help identify any trends.
+I included this grapgh to show the inncrease in incareation of black inmates.  In order to prove that this is a state wide issue I plotted the number of African American Inmates over time for two major CA counties.  This plot shows that the number of black inmates follows a similar pattern in San Mateo and San Diego counties.  It is also important to note that the population of San Diego County is greater than that of San Mateo thus comparing the total number of inmates would not help identify any trends.
 
 `r fig`
 
 ### Comparing Variables
 
-This plot compares the number of white people in a population vs the number of white people in prison.  This plot shows that white people face a lower likelyhood of going to prison than that of African Americans.  The chart shows that roughly 1000 white inmates are heald for every half a million white people.  This proportion is much higher for African Americans.
+This plot compares the number of white people in a population vs the number of white people in prison.  I included this plot to show that African Americans are more likely to go to prison from a given population.  This plot shows that white people face a lower likelyhood of going to prison than that of African Americans.  The chart shows that roughly 1000 white inmates are heald for every half a million white people.  This proportion is much higher for African Americans.
 
 `r fig2`
 
