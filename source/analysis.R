@@ -1,5 +1,9 @@
 
-
+#incarceration_trends <- function() {
+#  filename <- "https://raw.githubusercontent.com/vera-institute/incarceration-trends/master/incarceration_trends.csv"
+#  df <- read.csv(filename, header = TRUE, stringsAsFactors = FALSE)
+#  return(df)
+#}
 incarceration_trends<-read.csv("https://raw.githubusercontent.com/vera-institute/incarceration-trends/master/incarceration_trends.csv")
 library("tidyverse")
 library("plotly")
