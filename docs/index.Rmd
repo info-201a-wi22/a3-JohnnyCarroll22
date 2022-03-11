@@ -25,7 +25,7 @@ In order to determine if African Americans are more at risk for incarceration th
 
 ### Inmates Overtime
 
-I included this grapgh to show the inncrease in incareation of black inmates.  In order to prove that this is a state wide issue I plotted the number of African American Inmates over time for two major CA counties.  This plot shows that the number of black inmates follows a similar pattern in San Mateo and San Diego counties.  It is also important to note that the population of San Diego County is greater than that of San Mateo thus comparing the total number of inmates would not help identify any trends.
+I included this grapgh to show the increase in incareation of black inmates.  In order to prove that this is a state wide issue I plotted the number of African American Inmates over time for two major CA counties.  This plot shows that the number of black inmates follows a similar pattern in San Mateo and San Diego counties.  It is also important to note that the population of San Diego County is greater than that of San Mateo thus comparing the total number of inmates would not help identify any trends.
 
 `r fig`
 
