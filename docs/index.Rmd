@@ -12,7 +12,7 @@ library("plotly")
 library("dplyr")
 library("leaflet")
 library("knitr")
-source("analysis.R")
+source("../source/analysis.R")
 ```
 
 ### Introduction 
